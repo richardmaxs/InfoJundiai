@@ -1,10 +1,19 @@
 {
   "expo": {
-    "name": "rn-material-kit-free",
-    "description": "React Native - Material Kit Free",
-    "slug": "rn-material-kit-free",
+    "name": "jundinfo",
+    "description": "jundiai informação",
+    "slug": "jund-info",
     "privacy": "unlisted",
     "sdkVersion": "35.0.0",
+    "ios": { 
+      "bundleIdentifier": "com.unip.jundinfo" 
+    }, 
+    "android": { 
+      "package": "com.unip.jundinfo" ,
+      "config": { 
+        "googleMaps": {"apiKey": "AIzaSyA3cabXSCtpyRI4N0wetquLhkNIHNdDWbQ"}    
+     } 
+    },
     "platforms": [
       "ios",
       "android"
